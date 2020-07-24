@@ -1,14 +1,16 @@
 .Title
 {
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     text-shadow: 2px 2px aquamarine;
     font-family: cursive;
+    margin-top: 2%;
+    margin-left: 20%;
 
 }
 .Body
 {
-    background-color: whitesmoke;
+    background-color: #4A5859;
     
 }
 .order-info
@@ -50,8 +52,9 @@
 .round
 {
     border-radius: 50%;
-    margin-top: -8.5%;
+    /* margin-top: -1%; */
     margin-left: 5%;
+    /* margin-bottom: 1%; */
 }
 .row {
     display: -ms-flexbox; /* IE10 */
@@ -370,7 +373,7 @@ button:hover, a:hover {
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#73c3e0
 }
 .social-icons a.linkedin:hover
 {
@@ -388,4 +391,11 @@ button:hover, a:hover {
     margin-right:0;
     font-weight:600
   }
+}
+
+.dummy
+{
+  position: relative;
+  margin-top: -1%;
+  background-color: #226266;
 }
